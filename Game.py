@@ -118,7 +118,7 @@ while True:
             if event.key == pygame.K_SPACE and game_active:
                 bird_movement = 0
                 bird_movement -= 6
-                #flap_sound.play()
+                flap_sound.play()
             if event.key == pygame.K_SPACE and game_active == False:
                 game_active = True
                 pipe_list.clear()
